@@ -1,4 +1,4 @@
-import 
+import random 
 
 def play_game():
     lower_bound = 1
