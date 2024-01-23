@@ -1,4 +1,4 @@
-import random
+import 
 
 def play_game():
     lower_bound = 1
@@ -25,4 +25,5 @@ def play_game():
         else:
             return "Too high"
 
-
+    def
+    
