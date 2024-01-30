@@ -25,5 +25,6 @@ def play_game():
         else:
             return "Too high"
 
-    def
+     won = False
+if result == 'Correct':
     
