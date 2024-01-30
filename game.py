@@ -1,4 +1,4 @@
-import random 
+import random
 
 def play_game():
     lower_bound = 1
@@ -24,6 +24,7 @@ def play_game():
             return "Too low"
         else:
             return "Too high"
+
     attempts = 0
     won = False
 
