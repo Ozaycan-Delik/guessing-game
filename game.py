@@ -24,7 +24,11 @@ def play_game():
             return "Too low"
         else:
             return "Too high"
+attempts = 0
+    won = False
 
-     won = False
-if result == 'Correct':
-    
+    while attempts < max_attempts:
+        attempts += 1
+        guess = get_guess()
+        result = check_guess(guess, secret_number)
+
